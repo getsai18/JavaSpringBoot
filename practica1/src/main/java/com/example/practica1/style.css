@@ -1,0 +1,29 @@
+.campoObligatorio {
+    border: 1px solid red;
+    padding: 3px;
+    border-radius: 7px;
+    outline: none;
+
+}
+
+.valido{
+    border-color: green;
+}
+
+.invalido{
+    border-color: red;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

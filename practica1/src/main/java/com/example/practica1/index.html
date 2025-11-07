@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulario</title>
 </head>
-<body>
+<body class="body">
     <header>
         <h1 class="header">Formulario</h1>
     </header>
     
-    <main>
+    <main class="main">
         <h2 class="subtitulo">Formulario con post</h2>
 
         <form action="http://localhost:8080/saludo" class="formulario" method="post">
@@ -20,7 +21,15 @@
             </div>
             <div>
                 <label for="apellido">Apellido</label>
-                <input type="text" id="nombre" name="apellido" placeholder="Ingresa tu apellido" class="campoObligatorio">
+                <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" class="campoObligatorio">
+            </div>
+            <div>
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" class="campoObligatorio">
+            </div>
+            <div>
+                <label for="contrasenia">Contraseña</label>
+                <input type="password" id="contrasenia" name="contrasenia" placeholder="Ingresa tu contraseña" class="campoObligatorio">
             </div>
 
             <button type="submit" class="botonEnviar">Enviar</button>
