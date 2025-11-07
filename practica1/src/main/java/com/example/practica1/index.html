@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1 class="header">Formulario</h1>
+    </header>
+    
+    <main>
+        <h2 class="subtitulo">Formulario con post</h2>
+
+        <form action="http://localhost:8080/saludo" class="formulario" method="post">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" class="campoObligatorio">
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="nombre" name="apellido" placeholder="Ingresa tu apellido" class="campoObligatorio">
+            </div>
+
+            <button type="submit" class="botonEnviar">Enviar</button>
+
+        </form>
+        <div class="mostrarError"></div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
